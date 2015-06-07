@@ -45,7 +45,7 @@
 
 .text-success,
 .text-success:hover {
-    color: #7daaf0;
+    color: #afc9f0;
 }
 
 .text-danger,
@@ -184,16 +184,16 @@ input:focus {
 .has-success .radio-inline,
 .has-success .checkbox-inline,
 .has-success .form-control-feedback {
-    color: #7daaf0;
+    color: #afc9f0;
 }
 
 .has-success .form-control,
 .has-success .form-control:focus {
-    border: 2px solid #7daaf0;
+    border: 2px solid #afc9f0;
 }
 
 .has-success .input-group-addon {
-    border-color: #7daaf0;
+    border-color: #afc9f0;
 }
 
 .nav .open > a,
@@ -211,7 +211,7 @@ input:focus {
 .pager .disabled > a:hover,
 .pager .disabled > a:focus,
 .pager .disabled > span {
-    background-color: #7daaf0;
+    background-color: #afc9f0;
 }
 
 .close {
@@ -282,7 +282,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #7daaf0;
+    color: #afc9f0;
     outline: none;
 }
 
@@ -292,7 +292,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Josefin Sans", Futura, Helvetica, Arial, sans-serif;
     font-weight: 700;
 }
 
@@ -322,7 +322,7 @@ hr.star-light {
 }
 
 hr.star-light:after {
-    background-color: #7daaf0;
+    background-color: #afc9f0;
     color: white;
 }
 
@@ -346,7 +346,7 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    background: #7daaf0;
+    background: #afc9f0;
     color: white;
 }
 
@@ -362,7 +362,7 @@ header img {
 
 header .intro-text .name {
     display: block;
-    font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Josefin Sans", Futura, Helvetica, Arial, sans-serif;
     font-weight: 700;
     font-size: 2em;
 }
@@ -416,7 +416,7 @@ header .intro-text .skills {
 }
 
 .navbar.navbar-default .page-scroll a {
-    color: #7daaf0;
+    color: #afc9f0;
     transition: all 0.3s;
     background-color: transparent !important;
 }
@@ -434,7 +434,7 @@ header .intro-text .skills {
 }
 
 .navbar {
-    font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Josefin Sans", Futura, Helvetica, Arial, sans-serif;
     font-weight: 700;
 }
 
@@ -549,7 +549,7 @@ section.about {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-    color: #7daaf0;
+    color: #afc9f0;
     background: white;
     border: solid 2px white;
 }
@@ -603,7 +603,7 @@ section.about {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #7daaf0;
+    color: #afc9f0;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -739,11 +739,11 @@ footer .footer-below {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #7daaf0;
+    border-color: #afc9f0;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #7daaf0;
+    background-color: #afc9f0;
 }
 
 .navbar-default .navbar-toggle:focus,
