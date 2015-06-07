@@ -5,17 +5,17 @@
 }
 
 .navbar-default {
-    background-color: #253d4c;
+    background-color: #26244a;
 }
 
 .navbar-default .badge {
     background-color: #fff;
-    color: #253d4c;
+    color: #26244a;
 }
 
 .navbar-inverse .badge {
     background-color: #fff;
-    color: #253d4c;
+    color: #26244a;
 }
 
 .navbar-brand {
@@ -40,12 +40,12 @@
 
 .text-primary,
 .text-primary:hover {
-    color: #253d4c;
+    color: #26244a;
 }
 
 .text-success,
 .text-success:hover {
-    color: #95c3c9;
+    color: #7daaf0;
 }
 
 .text-danger,
@@ -184,16 +184,16 @@ input:focus {
 .has-success .radio-inline,
 .has-success .checkbox-inline,
 .has-success .form-control-feedback {
-    color: #95c3c9;
+    color: #7daaf0;
 }
 
 .has-success .form-control,
 .has-success .form-control:focus {
-    border: 2px solid #95c3c9;
+    border: 2px solid #7daaf0;
 }
 
 .has-success .input-group-addon {
-    border-color: #95c3c9;
+    border-color: #7daaf0;
 }
 
 .nav .open > a,
@@ -211,7 +211,7 @@ input:focus {
 .pager .disabled > a:hover,
 .pager .disabled > a:focus,
 .pager .disabled > span {
-    background-color: #c8e0e3;
+    background-color: #7daaf0;
 }
 
 .close {
@@ -254,15 +254,15 @@ input:focus {
 }
 
 .panel-default .close {
-    color: #253d4c;
+    color: #26244a;
 }
 
 .modal .close {
-    color: #253d4c;
+    color: #26244a;
 }
 
 .popover {
-    color: #253d4c;
+    color: #26244a;
 }
 
 body {
@@ -282,7 +282,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #95c3c9;
+    color: #7daaf0;
     outline: none;
 }
 
@@ -322,22 +322,22 @@ hr.star-light {
 }
 
 hr.star-light:after {
-    background-color: #95c3c9;
+    background-color: #7daaf0;
     color: white;
 }
 
 .about hr.star-light:after {
-    background-color: #253d4c;
+    background-color: #26244a;
     color: white;
 }
 
 hr.star-primary {
-    border-color: #253d4c;
+    border-color: #26244a;
 }
 
 hr.star-primary:after {
     background-color: white;
-    color: #253d4c;
+    color: #26244a;
 }
 
 .img-centered {
@@ -346,7 +346,7 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    background: #95c3c9;
+    background: #7daaf0;
     color: white;
 }
 
@@ -416,7 +416,7 @@ header .intro-text .skills {
 }
 
 .navbar.navbar-default .page-scroll a {
-    color: #95c3c9;
+    color: #7daaf0;
     transition: all 0.3s;
     background-color: transparent !important;
 }
@@ -465,7 +465,7 @@ section h2 {
 }
 
 section.about {
-    background: #253d4c;
+    background: #26244a;
     color: white;
 }
 
@@ -549,7 +549,7 @@ section.about {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-    color: #95c3c9;
+    color: #7daaf0;
     background: white;
     border: solid 2px white;
 }
@@ -603,7 +603,7 @@ section.about {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #95c3c9;
+    color: #7daaf0;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -620,7 +620,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #253d4c;
+    background-color: #26244a;
 }
 
 footer .footer-col {
@@ -629,7 +629,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #1d2f3b;
+    background-color: #26244a;
 }
 
 .btn-social {
@@ -712,7 +712,7 @@ footer .footer-below {
     height: 75px;
     width: 1px;
     margin-left: 35px;
-    background-color: #253d4c;
+    background-color: #26244a;
     transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     /* IE 9 */
@@ -724,7 +724,7 @@ footer .footer-below {
 .portfolio-modal .close-modal .lr .rl {
     height: 75px;
     width: 1px;
-    background-color: #253d4c;
+    background-color: #26244a;
     transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     /* IE 9 */
@@ -739,19 +739,27 @@ footer .footer-below {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #95c3c9;
+    border-color: #7daaf0;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #95c3c9;
+    background-color: #7daaf0;
 }
 
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
-    background-color: #253d4c;
+    background-color: #26244a;
 }
 
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-    border-color: #253d4c;
+    border-color: #26244a;
+}
+
+body {
+    background-color: #26244a;
+}
+
+section {
+    background-color: #fff;
 }
