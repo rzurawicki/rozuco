@@ -1,16 +1,6 @@
-@import "variables.less";
-
-// Flatly 3.2.0
+// Flatly 3.3.5
 // Bootswatch
 // -----------------------------------------------------
-
-.box-shadow(@radius) {
-  -webkit-webkit-box-shadow: 0;
-  -moz-webkit-box-shadow: 0;
-  -ms-webkit-box-shadow: 0;
-  -o-webkit-box-shadow: 0;
-  border-radius: 0;
-}
 
 // Navbar =====================================================================
 
@@ -18,7 +8,6 @@
   border-width: 0;
 
   &-default {
-    background-color: @navbar-default-bg;
 
     .badge {
       background-color: #fff;
@@ -35,18 +24,22 @@
   }
 
   &-brand {
-    padding: 18.5px 15px 20.5px;
+    line-height: 1;
   }
 }
 
 // Buttons ====================================================================
 
+.btn {
+  border-width: 2px;
+}
+
 .btn:active {
-  .box-shadow(none);
+  box-shadow: none;
 }
 
 .btn-group.open .dropdown-toggle {
-  .box-shadow(none);
+  box-shadow: none;
 }
 
 // Typography =================================================================
@@ -85,13 +78,19 @@ table,
     text-decoration: underline;
   }
 
+  .dropdown-menu a {
+    text-decoration: none;
+  }
+
   .success,
   .warning,
   .danger,
   .info {
     color: #fff;
 
-    a {
+    > th > a,
+    > td > a,
+    > a {
       color: #fff;
     }
   }
@@ -120,10 +119,10 @@ table,
 .form-control,
 input, {
   border-width: 2px;
-  .box-shadow(none);
+  box-shadow: none;
 
   &:focus {
-    .box-shadow(none);
+    box-shadow: none;
   }
 }
 
@@ -134,6 +133,10 @@ input, {
   .checkbox,
   .radio-inline,
   .checkbox-inline,
+  &.radio label,
+  &.checkbox label,
+  &.radio-inline label,
+  &.checkbox-inline label,
   .form-control-feedback {
     color: @brand-warning;
   }
@@ -155,6 +158,10 @@ input, {
   .checkbox,
   .radio-inline,
   .checkbox-inline,
+  &.radio label,
+  &.checkbox label,
+  &.radio-inline label,
+  &.checkbox-inline label,
   .form-control-feedback {
     color: @brand-danger;
   }
@@ -176,6 +183,10 @@ input, {
   .checkbox,
   .radio-inline,
   .checkbox-inline,
+  &.radio label,
+  &.checkbox label,
+  &.radio-inline label,
+  &.checkbox-inline label,
   .form-control-feedback {
     color: @brand-success;
   }
@@ -242,7 +253,7 @@ input, {
 
 .progress {
   height: 10px;
-  .box-shadow(none);
+  box-shadow: none;
   .progress-bar {
     font-size: 10px;
     line-height: 10px;
@@ -252,7 +263,49 @@ input, {
 // Containers =================================================================
 
 .well {
-  .box-shadow(none);
+  box-shadow: none;
+}
+
+a.list-group-item {
+
+  &.active,
+  &.active:hover,
+  &.active:focus {
+    border-color: @list-group-border;
+  }
+
+  &-success {
+    &.active {
+      background-color: @state-success-bg;
+    }
+
+    &.active:hover,
+    &.active:focus {
+      background-color: darken(@state-success-bg, 5%);
+    }
+  }
+
+  &-warning {
+    &.active {
+      background-color: @state-warning-bg;
+    }
+
+    &.active:hover,
+    &.active:focus {
+      background-color: darken(@state-warning-bg, 5%);
+    }
+  }
+
+  &-danger {
+    &.active {
+      background-color: @state-danger-bg;
+    }
+
+    &.active:hover,
+    &.active:focus {
+      background-color: darken(@state-danger-bg, 5%);
+    }
+  }
 }
 
 .panel {
